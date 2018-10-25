@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 54064551415218404}
   - component: {fileID: 82066897410349502}
   m_Layer: 0
-  m_Name: FPSController
+  m_Name: FlashlightAbility_Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
