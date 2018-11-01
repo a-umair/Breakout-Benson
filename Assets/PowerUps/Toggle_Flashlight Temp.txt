@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor.Experimental.UIElements.GraphView;
+using UnityEngine;
+
+
+public class Toggle_Flashlight : MonoBehaviour {
+    public bool on = false;
+    
+  
+    void Start () {
+		
+	}
+
+    void Update()
+    {
+        while(FlashlightObjectBehavior.flashlightAbility == true)
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+                on = !on;
+            if (on)
+                GetComponent<Light>().enabled = true;
+            else if (!on)
+                GetComponent<Light>().enabled = false;
+        }
+
+     
+    }
+}
