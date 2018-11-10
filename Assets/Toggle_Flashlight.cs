@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Toggle_Flashlight : MonoBehaviour {
     public bool on = false;
-  
-    void Start () {
-		
+    private Light flashLight;
+
+
+    void Start ()
+    {
+        flashLight = GetComponent<Light>();
 	}
 
     void Update()
@@ -16,9 +19,9 @@ public class Toggle_Flashlight : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.F))
             on = !on;
         if (on)
-            GetComponent<Light>().enabled = true;
+            flashLight.enabled = true;
         else if (!on)
-            GetComponent<Light>().enabled = false;
+            flashLight.enabled = false;
     }
 }
 
