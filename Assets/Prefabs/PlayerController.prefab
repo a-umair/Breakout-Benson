@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114642134971279988}
   - component: {fileID: 54064551415218404}
   - component: {fileID: 82066897410349502}
+  - component: {fileID: 114537575225501536}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Player
@@ -98,14 +99,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1015410518717712}
-  m_LocalRotation: {x: -0, y: -0.999935, z: -0, w: 0.011403908}
-  m_LocalPosition: {x: -0.11900068, y: 1.118, z: 3.1200001}
+  m_LocalRotation: {x: -0, y: -0.7009344, z: -0, w: 0.71322584}
+  m_LocalPosition: {x: 190.0042, y: 3.4, z: 5.6966844}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4339770012682216}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -178.69301, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -89.004005, z: 0}
 --- !u!20 &20224526401226952
 Camera:
   m_ObjectHideFlags: 1
@@ -300,6 +301,18 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114537575225501536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015410518717712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06950002ce1aba84eb7361f39affa51d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newJumpHeight: 11
 --- !u!114 &114642134971279988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -315,9 +328,9 @@ MonoBehaviour:
   m_WalkSpeed: 5
   m_RunSpeed: 10
   m_RunstepLenghten: 0.7
-  m_JumpSpeed: 10
+  m_JumpSpeed: 5
   m_StickToGroundForce: 10
-  m_GravityMultiplier: 2
+  m_GravityMultiplier: 1.5
   m_MouseLook:
     XSensitivity: 2
     YSensitivity: 2

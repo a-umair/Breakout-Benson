@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 //Pick Up Spin
 //all this does is make the powerup spin 1 degree per frame.
 //just makes the powerup stand out!

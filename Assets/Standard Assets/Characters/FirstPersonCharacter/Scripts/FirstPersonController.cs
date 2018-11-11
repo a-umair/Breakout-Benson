@@ -254,7 +254,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 return;
             }
-            body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+            body.AddForceAtPosition(m_CharacterController.velocity * 0.1f, hit.point, ForceMode.Impulse);
         }
+
+
+        //Josh's changes to make the rocketboots be toggle-able - or at least be turned on once
+        public void setJumpSpeed(float newspeed)
+        {
+            //the default jumpspeed is 5.0, keep that in mind when changing the speed!
+            m_JumpSpeed = newspeed;
+        }
+
+
     }
 }
