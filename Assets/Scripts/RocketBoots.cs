@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlashLightPickUp : MonoBehaviour {
+public class RocketBoots : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
