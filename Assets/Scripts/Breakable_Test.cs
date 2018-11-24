@@ -22,7 +22,6 @@ public class Breakable_Test : MonoBehaviour {
             health = health - (TotalHealth/2);
             Destroy(collision.gameObject);
             //Set the main Color of the Material to red, to show it's damaged.
-            //actually broken atm.
             rend.material.color = Color.red;
         }
     }
@@ -33,10 +32,6 @@ public class Breakable_Test : MonoBehaviour {
 		if(health <= 0)
         {
             Destroy(gameObject);
-        }
-        if(health != TotalHealth)
-        {
-            //do something regarding material color.
         }
 	}
 }
