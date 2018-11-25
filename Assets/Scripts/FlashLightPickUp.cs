@@ -5,7 +5,9 @@ using UnityEngine;
 public class FlashLightPickUp : MonoBehaviour {
 
     public GameObject flashLight;
+    public Light light;
     private Toggle_Flashlight flash;
+    public GameObject DoorToDestroy;
 
 
 	// Use this for initialization
@@ -18,15 +20,10 @@ public class FlashLightPickUp : MonoBehaviour {
         //checks the tag of the collider to see if it's the player.
         if(other.tag == "Player")
         {
+            //give the powerup and destroy the pickup.
             flash.SetPower(true);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        //destroy the pickup once we know the player has the powerup.
-        if(other.tag == "Player")
-        {
+            Destroy(light);
+            Destroy(DoorToDestroy);
             Destroy(gameObject);
         }
     }

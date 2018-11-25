@@ -6,6 +6,7 @@ public class RocketBootsPickup : MonoBehaviour {
 
     public GameObject Player;
     private RocketBoots boots;
+    public Light lights;
 
 
     // Use this for initialization
@@ -19,15 +20,9 @@ public class RocketBootsPickup : MonoBehaviour {
         //checks the tag of the collider to see if it's the player.
         if (other.tag == "Player")
         {
+            //give the player the powerup and destroy the pickup
             boots.HighJump();
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        //destroy the pickup once we know the player has the powerup.
-        if (other.tag == "Player")
-        {
+            Destroy(lights);
             Destroy(gameObject);
         }
     }
