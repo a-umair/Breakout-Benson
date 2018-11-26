@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 54064551415218404}
   - component: {fileID: 82066897410349502}
   - component: {fileID: 114537575225501536}
+  - component: {fileID: 114974687252695054}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Player
@@ -99,14 +100,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1015410518717712}
-  m_LocalRotation: {x: -0, y: -0.7009344, z: -0, w: 0.71322584}
-  m_LocalPosition: {x: 190.0042, y: 3.4, z: 5.6966844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.006376231, y: 1.59, z: -9.161334}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4339770012682216}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -89.004005, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20224526401226952
 Camera:
   m_ObjectHideFlags: 1
@@ -274,9 +275,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 15
-  m_SpotAngle: 54.3
+  m_Intensity: 4
+  m_Range: 20
+  m_SpotAngle: 75
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -359,6 +360,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1d55af6f0b3b514ba9068e151836cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114974687252695054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015410518717712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655ec76abb01240488524a16d0d47b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1995290019322334, guid: 0c9bcc34b6053c04998fe52724c05a53, type: 2}
 --- !u!124 &124322276421857408
 Behaviour:
   m_ObjectHideFlags: 1

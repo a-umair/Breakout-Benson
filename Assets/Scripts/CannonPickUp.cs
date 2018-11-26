@@ -5,6 +5,7 @@ using UnityEngine;
 public class CannonPickUp : MonoBehaviour {
 
     public GameObject Player;
+    public GameObject lights;
     private Cannon cann;
 
 	// Use this for initialization
@@ -19,14 +20,7 @@ public class CannonPickUp : MonoBehaviour {
         if (other.tag == "Player")
         {
             cann.setPower(true);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        //destroy the pickup once we know the player has the powerup.
-        if (other.tag == "Player")
-        {
+            Destroy(lights);
             Destroy(gameObject);
         }
     }

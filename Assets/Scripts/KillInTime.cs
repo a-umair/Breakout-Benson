@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour {
-
+public class KillInTime : MonoBehaviour {
+    public int TIMETOKILL = 10;
     private void Awake()
     {
-        Destroy(gameObject, 10);
+        Destroy(gameObject, TIMETOKILL);
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class FlashLightPickUp : MonoBehaviour {
 
     public GameObject flashLight;
-    public Light light;
+    public Light lights;
     private Toggle_Flashlight flash;
     public GameObject DoorToDestroy;
 
@@ -22,7 +22,7 @@ public class FlashLightPickUp : MonoBehaviour {
         {
             //give the powerup and destroy the pickup.
             flash.SetPower(true);
-            Destroy(light);
+            Destroy(lights);
             Destroy(DoorToDestroy);
             Destroy(gameObject);
         }

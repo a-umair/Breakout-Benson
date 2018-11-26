@@ -8,7 +8,7 @@ public class breakableparentTest : MonoBehaviour {
     //Whenever all the block chunks of the main block are destroyed,
     //the parent object kills itself since it no longer has children.
 	void FixedUpdate () {
-		if(!gameObject.GetComponentInChildren<Rigidbody>())
+        if (transform.childCount == 0) 
         {
             Destroy(gameObject);
         }
