@@ -38,9 +38,9 @@ GameObject:
   - component: {fileID: 33539906119822792}
   - component: {fileID: 23392512248755942}
   - component: {fileID: 54269615632441388}
-  - component: {fileID: 64145783428592582}
   - component: {fileID: 114090480227875018}
   - component: {fileID: 114474652885070288}
+  - component: {fileID: 135925578004343494}
   m_Layer: 0
   m_Name: Cube.001_cell.002
   m_TagString: Untagged
@@ -59,9 +59,9 @@ GameObject:
   - component: {fileID: 33767020708995042}
   - component: {fileID: 23180402284078160}
   - component: {fileID: 54675266646528958}
-  - component: {fileID: 64001648185506466}
   - component: {fileID: 114375395937139264}
   - component: {fileID: 114970497259215968}
+  - component: {fileID: 135456219718392102}
   m_Layer: 0
   m_Name: Cube.001_cell
   m_TagString: Untagged
@@ -80,9 +80,9 @@ GameObject:
   - component: {fileID: 33208481171229634}
   - component: {fileID: 23241909215865116}
   - component: {fileID: 54630586110362876}
-  - component: {fileID: 64138744028466574}
   - component: {fileID: 114170057523629448}
   - component: {fileID: 114985156620807610}
+  - component: {fileID: 135149724835081636}
   m_Layer: 0
   m_Name: Cube.001_cell.004
   m_TagString: Untagged
@@ -101,9 +101,9 @@ GameObject:
   - component: {fileID: 33105030437625192}
   - component: {fileID: 23281755317740772}
   - component: {fileID: 54881829323280060}
-  - component: {fileID: 64757414491976278}
   - component: {fileID: 114409353049298744}
   - component: {fileID: 114476103051634922}
+  - component: {fileID: 135446900624208134}
   m_Layer: 0
   m_Name: Cube.001_cell.003
   m_TagString: Untagged
@@ -122,9 +122,9 @@ GameObject:
   - component: {fileID: 33653881094985852}
   - component: {fileID: 23275243303973412}
   - component: {fileID: 54600321392678760}
-  - component: {fileID: 64548185428789614}
   - component: {fileID: 114549680781451686}
   - component: {fileID: 114703749585026234}
+  - component: {fileID: 135861300404085220}
   m_Layer: 0
   m_Name: Cube.001_cell.001
   m_TagString: Untagged
@@ -500,76 +500,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64001648185506466
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1480621842244990}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300008, guid: 4fccc7b778c3eef4fb17ba15b9fe273e, type: 3}
---- !u!64 &64138744028466574
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1606912648071988}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 4fccc7b778c3eef4fb17ba15b9fe273e, type: 3}
---- !u!64 &64145783428592582
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1128657551178768}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300004, guid: 4fccc7b778c3eef4fb17ba15b9fe273e, type: 3}
---- !u!64 &64548185428789614
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1677582927877026}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300006, guid: 4fccc7b778c3eef4fb17ba15b9fe273e, type: 3}
---- !u!64 &64757414491976278
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1647596446371634}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300002, guid: 4fccc7b778c3eef4fb17ba15b9fe273e, type: 3}
 --- !u!114 &114090480227875018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -701,3 +631,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TIMETOKILL: 6
+--- !u!135 &135149724835081636
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1606912648071988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.005
+  m_Center: {x: 0.00020527607, y: -0.0019368096, z: -0.003165543}
+--- !u!135 &135446900624208134
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647596446371634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.005
+  m_Center: {x: -0.0017413569, y: 0.0011675166, z: -0.0017396926}
+--- !u!135 &135456219718392102
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1480621842244990}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.005
+  m_Center: {x: 0.0011274216, y: 0.0016931177, z: -0.00090304785}
+--- !u!135 &135861300404085220
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677582927877026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.005
+  m_Center: {x: 0.0031831937, y: 0.00050673255, z: 0.0025525945}
+--- !u!135 &135925578004343494
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1128657551178768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.005
+  m_Center: {x: -0.003579529, y: -0.001766792, z: 0.0017007601}
