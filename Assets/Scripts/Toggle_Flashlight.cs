@@ -20,8 +20,10 @@ public class Toggle_Flashlight : MonoBehaviour {
     {
         if(hasPower)
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetButtonUp("Flashlight"))
+            {
                 on = !on;
+            }
         }
 
         if (on)

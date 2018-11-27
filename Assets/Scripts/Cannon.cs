@@ -17,10 +17,8 @@ public class Cannon : MonoBehaviour {
 	void Update () {
         if (power)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetButtonUp("Fire1")) 
             {
-                //TODO
-                //DESTROY CANNONBALLS AFTER A WHILE
                 GameObject projectile = Instantiate(bullet) as GameObject;
                 projectile.transform.position = transform.position + Camera.main.transform.forward * 2;
                 Rigidbody rigbo = projectile.GetComponent<Rigidbody>();
